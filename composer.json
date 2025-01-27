@@ -1,6 +1,6 @@
 {
     "name": "thais/leitor-csv",
-    "description": "Projeto que realiza a leitura de planilhas csv e devolve os dados",
+    "description": "Projeto que realiza a leitura de planilhas csv  e envia os dados para um e-mail",
     "type": "library",
     "autoload": {
         "psr-4": {
@@ -16,6 +16,7 @@
     "require": {
         "guzzlehttp/guzzle": "^7.9",
         "symfony/dom-crawler": "^6.4",
-        "symfony/css-selector": "^6.4"
+        "symfony/css-selector": "^6.4",
+        "league/csv": "^9.21"
     }
 }
