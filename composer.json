@@ -1,0 +1,21 @@
+{
+    "name": "thais/leitor-csv",
+    "description": "Projeto que realiza a leitura de planilhas csv e devolve os dados",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Thais\\LeitorCsv\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "thais maciel",
+            "email": "thaismaciielf@hotmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.9",
+        "symfony/dom-crawler": "^6.4",
+        "symfony/css-selector": "^6.4"
+    }
+}
